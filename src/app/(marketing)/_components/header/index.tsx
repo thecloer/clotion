@@ -15,7 +15,7 @@ const Header = () => {
       className={cn('z-10 bg-background sticky top-0 flex items-center w-full p-6', scrolled && 'border-b shadow-sm')}
     >
       <Logo />
-      <div className='flex justify-between md:justify-end items-center gap-2 w-full'>
+      <div className='flex justify-end items-center gap-2 w-full'>
         <NavButtons />
         <ThemeToggle />
       </div>
